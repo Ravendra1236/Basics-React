@@ -1,0 +1,40 @@
+
+.Product{
+    border-radius: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.Container{
+    display: flex;
+    flex-direction: row;
+}
+.Price {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Space between Old and New Price */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #e0e0e0; /* Slightly darker background for Price section */
+    border-radius: 8px;
+}
+
+.OldPrice p {
+    text-decoration: line-through; /* Strikethrough for Old Price */
+    color: red; /* Red color for Old Price */
+    font-weight: bold;
+    margin: 0;
+}
+
+.NewPrice p {
+    color: green; /* Green color for New Price */
+    font-size: 1.2em; /* Slightly larger font for New Price */
+    font-weight: bold;
+    margin: 0;
+}
+
+.h2{
+    margin-bottom: 50px;
+}
