@@ -14,7 +14,12 @@ function Counter() {
 
     function incCount(){
         console.log(count); // due to clousers value is different 
-        setCount(count+1);
+        // setCount(count+1);
+
+        // Callback in set state function : Important
+        setCount((prevCount) =>  prevCount  + 1)
+        setCount((prevCount) =>  prevCount  + 1)
+        setCount((prevCount) =>  prevCount  + 1)
     }
 
     return (
